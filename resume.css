@@ -1,0 +1,117 @@
+body {
+    font-family: 'pacifico', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #4d3319;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.profile-picture {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.panel {
+    flex: 1;
+    margin: 10px;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.about-content,
+.projects-content,
+.contact-content {
+    padding: 20px;
+    background-color: #e0c8a0;
+    border-radius: 10px;
+}
+
+.about {
+    order: 2;
+}
+
+.projects {
+    order: 1;
+}
+
+.contact {
+    order: 1;
+}
+
+h2, h3 {
+    color: #3498db;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alkatra', sans-serif;
+    color: #3498db; /* Adjust the color if needed */
+}
+
+body {
+    font-family: 'Almendra', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ... (Rest of your existing CSS) */
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://i.pinimg.com/564x/45/71/11/4571111b05d0bbcaaba42c34f05c3c85.jpg'); /* Replace 'background.jpg' with the actual file path or URL of your background image */
+    background-size: cover; /* Ensures the background image covers the entire container */
+    background-position: center; /* Center the background image */
+    padding: 20px; /* Add padding to the container to prevent the content from sticking to the edges */
+    color: #333; /* Set the text color */
+}
+
+/* Rest of your existing CSS */
